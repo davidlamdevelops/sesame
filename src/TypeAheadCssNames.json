@@ -1,0 +1,6 @@
+{
+    "container": "TypeAhead",
+    "option": "TypeAhead-option",
+    "search": "TypeAhead-search",
+    "suggestions": "TypeAhead-suggestions"
+}

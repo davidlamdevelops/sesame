@@ -1,0 +1,85 @@
+.TypeAhead {
+    animation: fadein 1.5s;
+    position: relative;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+        top: 100px;
+    }
+    to {
+        opacity:1;
+        top:0px;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+        top:100px;
+    }
+    to {
+        opacity:1;
+        top:0px;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+        top:100px;
+    }
+    to {
+        opacity:1;
+        top:0px;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+        top:100px;
+    }
+    to {
+        opacity: 1;
+        top:0px;
+    }
+}
+
+
+.TypeAhead-search {
+    border: 2px solid #CCC;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.TypeAhead-search:focus {
+    outline: none;
+}
+
+.TypeAhead-suggestions {
+    border:1px solid #DDD;
+    background: #FFF;
+    border-top: 0px;
+    top: -1px;
+    position: relative;
+    max-height: 200px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.TypeAhead-option {
+    border-bottom: 1px solid #DDD;
+    padding: 10px;
+}
+
+.TypeAhead-option:hover {
+    cursor: pointer;
+    background: #EEE;
+}
+
+.TypeAhead-option:focus {
+    cursor: pointer;
+    background: #EEE;
+    outline: none;
+}

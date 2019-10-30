@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.App-footer { 
+  position: fixed;
+  bottom: 50px;
+}
+
+.App-link {
+  color: green;
+}
